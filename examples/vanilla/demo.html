@@ -53,12 +53,8 @@
         "items": [[1, 1170], [3, 4925], [5, 9575], [6, 25235], [7, 2311], [8, 21154], [9, 14618], [10, 9534], [15, 17238], [21, 20379], [22, 28787]]
     };
 
-
-    window.model = await generateModels(1, `#model_3d1`, {type: 8, id: 77501});
-    model.setAnimation("Sleep")
-    window.model2 = await generateModels(1, `#model_3d2`, {type: 1, id: 193841});
-    window.model2 = await generateModels(1, `#model_3d3`, {type: 12, id: 27823});
-    
-
+    window.model1 = await generateModels(1, `#model_3d2`, character);
+    window.model2 = await generateModels(1, `#model_3d1`, {type: 8, id: 77501});
+    window.model3 = await generateModels(1, `#model_3d3`, {type: 8, id: 24949});
 </script>
 </html>
